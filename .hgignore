@@ -1,0 +1,4 @@
+syntax: glob
+monogram.png
+*~
+*.pyc
