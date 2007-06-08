@@ -2,3 +2,5 @@ syntax: glob
 monogram.png
 *~
 *.pyc
+build/*
+dist/*
