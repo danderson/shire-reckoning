@@ -1,4 +1,21 @@
-#!/usr/bin/env python
+# Shire Reckoning calendar
+#
+# Copyright (c) 2007, David Anderson <dave@natulte.net>
+#
+# See the LICENSE file for distribution terms.
+#
+# The main class of this module is the ShireDate class. Create an
+# instance with a given gregorian year, month and day, and it will be
+# created to match the corresponding date in the Shire calendar. You
+# can then display it by stringifying the instance, or poke at
+# individual attribues: .year, .month, .day and .special_day. If month
+# and day are None, then special_day is the name of the out-of-month
+# Shire holiday. Otherwise, the day is a number and the month is the
+# string name of the month by Shire reckoning.
+#
+# If you just want today's date, you can just use the
+# ShireDate.today() class method, which returns today's date as a
+# ShireDate instance.
 
 from calendar import isleap
 from datetime import date

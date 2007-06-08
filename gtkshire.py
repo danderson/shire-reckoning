@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 #
+# Copyright (c) 2007, David Anderson <dave@natulte.net>
+#
+# See the LICENSE file for distribution terms.
+#
 # Display a small icon in the status bar, with a tooltip that gives
-# the current date by Shire reckoning.
+# the current date by Shire Reckoning. See README for more
+# information.
 
 import threading
 import os
