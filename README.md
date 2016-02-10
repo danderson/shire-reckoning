@@ -1,3 +1,7 @@
+_This is *very* old software that I had lying around. I'm publishing
+it for historical interest, and will gladly accept patches to get it
+working again, but I won't be doing much to it._
+
 Shire Reckoning
 ===============
 
